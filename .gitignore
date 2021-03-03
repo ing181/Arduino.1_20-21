@@ -1,0 +1,12 @@
+# Ignore Everything
+*
+# But not .cpp, .c or .h
+!*.cpp
+!*.c
+!*.h
+# Or directories
+!*/
+!.gitignore
+!README.md
+# Arduino
+!*.ino
