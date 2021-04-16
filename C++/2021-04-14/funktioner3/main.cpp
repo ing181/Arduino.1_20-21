@@ -5,15 +5,18 @@ using namespace std;
 // int, från integer heltal
 // Om utvärde
 // void betyder "inget skickas tillbaka"
-// vill du ha något till bak anges datatypen
+// vill du ha något tillbaka anges datatypen
+// "int", "float" beroende på vilken typ
+// av data som du vill ha tillbaka
+
 int minFunktion2(int a);
 int main()
 {
     int varv = 0;
     while (varv < 3) {
-    cout << "Rad 9" << endl;
+    cout << "Rad 17" << endl;
     cout << minFunktion2(1000) << endl;
-    cout << "Rad 11" << endl;
+    cout << "Rad 19" << endl;
     // variabeln varv tildelas (får)
     // värdet av sig själv + 1
     varv = varv + 1;
